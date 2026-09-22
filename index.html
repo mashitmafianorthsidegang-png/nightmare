@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nightmare | فروش کدهای پایتون و اسکریپت</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- پس‌زمینه کد -->
+  <div class="code-bg" id="codeBg"></div>
+  <div class="overlay-dark"></div>
+  <div class="scanlines"></div>
+
+  <!-- هدر -->
+  <header class="header">
+    <div class="logo">
+      <span class="logo-icon">🌙</span>
+      <h1>Night<span>mare</span></h1>
+    </div>
+    <nav>
+      <a href="#products">محصولات</a>
+      <a href="#about">درباره ما</a>
+      <a href="#contact">تماس</a>
+    </nav>
+  </header>
+
+  <!-- بخش قهرمان -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="terminal-line">
+        <span class="prompt">$</span> <span class="typing" id="typingText"></span><span class="cursor">_</span>
+      </div>
+      <h2 class="hero-title">کدهای <span class="glow">پایتون</span> و اسکریپت‌های حرفه‌ای</h2>
+      <p class="hero-sub">سورس‌کدهای آماده، بهینه و تست‌شده برای پروژه‌های برنامه‌نویسی شما</p>
+      <a href="#products" class="btn-primary">مشاهده محصولات</a>
+    </div>
+  </section>
+
+  <!-- محصولات -->
+  <section id="products" class="products">
+    <h2 class="section-title">محصولات <span class="glow">ویژه</span></h2>
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">bot.py</span>
+        </div>
+        <div class="card-icon">🐍</div>
+        <h3>ربات تلگرام پایتون</h3>
+        <p>سورس کامل ربات تلگرام با قابلیت‌های پیشرفته و دیتابیس</p>
+        <div class="price">۴۹۹,۰۰۰ تومان</div>
+        <button class="btn-buy" data-product="ربات تلگرام پایتون">خرید</button>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">scraper.py</span>
+        </div>
+        <div class="card-icon">🤖</div>
+        <h3>اسکریپت وب اسکرپینگ</h3>
+        <p>ابزار جمع‌آوری داده از سایت‌ها با Selenium و BeautifulSoup</p>
+        <div class="price">۳۵۰,۰۰۰ تومان</div>
+        <button class="btn-buy" data-product="اسکریپت وب اسکرپینگ">خرید</button>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">dashboard.py</span>
+        </div>
+        <div class="card-icon">📊</div>
+        <h3>داشبورد تحلیل داده</h3>
+        <p>پنل تحلیل داده با Pandas، Plotly و Streamlit</p>
+        <div class="price">۵۹۹,۰۰۰ تومان</div>
+        <button class="btn-buy" data-product="داشبورد تحلیل داده">خرید</button>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">auto.py</span>
+        </div>
+        <div class="card-icon">⚡</div>
+        <h3>اسکریپت خودکارسازی</h3>
+        <p>اتوماسیون کارهای تکراری با Python و Task Scheduler</p>
+        <div class="price">۲۹۹,۰۰۰ تومان</div>
+        <button class="btn-buy" data-product="اسکریپت خودکارسازی">خرید</button>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">security.py</span>
+        </div>
+        <div class="card-icon">🔐</div>
+        <h3>ابزار امنیتی پایتون</h3>
+        <p>اسکنر آسیب‌پذیری و ابزار تست امنیت شبکه</p>
+        <div class="price">۷۹۹,۰۰۰ تومان</div>
+        <button class="btn-buy" data-product="ابزار امنیتی پایتون">خرید</button>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">game.py</span>
+        </div>
+        <div class="card-icon">🎮</div>
+        <h3>بازی پایتون</h3>
+        <p>سورس بازی دوبعدی با Pygame و گرافیک اختصاصی</p>
+        <div class="price">۴۵۰,۰۰۰ تومان</div>
+        <button class="btn-buy" data-product="بازی پایتون">خرید</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- درباره ما -->
+  <section id="about" class="about">
+    <h2 class="section-title">درباره <span class="glow">Nightmare</span></h2>
+    <p>ما مجموعه‌ای از بهترین سورس‌کدها و اسکریپت‌های پایتون را برای توسعه‌دهندگان و برنامه‌نویسان فراهم می‌کنیم. تمام کدها تست‌شده و بهینه هستند.</p>
+  </section>
+
+  <!-- فوتر -->
+  <footer id="contact" class="footer">
+    <p>© 2025 Nightmare | تمامی حقوق محفوظ است</p>
+  </footer>
+
+  <!-- مودال ثبت‌نام -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <h2 class="modal-title">ثبت‌نام برای <span class="glow">دریافت فایل</span></h2>
+
+      <form id="signupForm" class="signup-form">
+        <div class="input-group">
+          <label>نام</label>
+          <input type="text" id="firstName" required placeholder="نام خود را وارد کنید" />
+        </div>
+
+        <div class="input-group">
+          <label>نام خانوادگی</label>
+          <input type="text" id="lastName" required placeholder="نام خانوادگی" />
+        </div>
+
+        <div class="input-group">
+          <label>جیمیل</label>
+          <input type="email" id="email" required placeholder="example@gmail.com" />
+        </div>
+
+        <div class="input-group">
+          <label>رمز عبور</label>
+          <input type="password" id="password" required placeholder="پسوورد" />
+        </div>
+
+        <button type="submit" class="btn-primary btn-full">ثبت‌نام و ادامه</button>
+      </form>
+
+      <!-- بخش خرید (مخفی) -->
+      <div id="purchaseSection" class="purchase-section hidden">
+        <div class="success-icon">✓</div>
+        <h3>ثبت‌نام با موفقیت انجام شد!</h3>
+        <p>برای دریافت فایل، روی دکمه زیر کلیک کنید:</p>
+        <a href="#" class="btn-primary btn-full" id="downloadBtn">دریافت فایل</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
